@@ -1,0 +1,47 @@
+﻿1. What is the difference between JVM, JRE and JDK?
+Ans: 
+JVM: Java Virtual Machine is a part of JRE. 
+It is type of interpreter responsible for converting bytecode into machine-readable code.
+Platform dependent but it interprets the bytecode which is the platform-independent reason why Java is platform-independent.
+ 
+JRE: Java Runtime Environment, it is an 
+Installation package that provides an environment to run the Java program or application on any machine. 
+
+
+JDK: Java Development Kit 
+Provides the environment to develop and execute Java programs. 
+
+
+2. How is Java programming language machine and platform independent?
+Ans: Java is platform independent through its "Write Once, Run Anywhere" principle. This is possible because Java source code is compiled into bytecode rather than platform-specific machine code. The bytecode is then executed by the JVM, which is implemented differently for various operating systems but interprets the same bytecode.
+
+
+3. Explain how Java programs are executed by the JVM?
+Ans: sourceCode.java → compiler → byte code → JVM → native machine code → java execution engine
+
+
+4. What is the use of var args?
+Ans: Allow methods to accept a variable number of arguments of the same type. It uses the ellipsis (...) notation and is particularly useful when the number of arguments that a method needs to accept is not known at compile time.
+
+
+5. What are the types of variables in Java?
+Ans: Local - declared within the method and have local scope , 
+Static - declared static ,its value cannot be changes,  memory allocated only once when method is loaded, 
+Instance -   declare inside class but outside the method.
+
+
+6. How many types of memory areas are allocated by JVM?
+Ans: there are 5 types of memory areas : 
+* Heap
+* Stack
+* Class(method) area
+* Program counter Register
+* Native method stack
+
+
+
+
+
+
+7. What is Just-in-time Compiler (JIT)
+Ans: JIT is a component of the JVM that improves the performance of Java applications by compiling bytecode into native machine code at runtime. It identifies parts of the bytecode that are frequently executed and compiles them into native code, thus speeding up the execution of those parts.
