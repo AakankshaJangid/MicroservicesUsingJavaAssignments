@@ -1,0 +1,53 @@
+﻿1. What are Primitive Data types in Java?
+Ans : Boolean , char , int , float , double , char , short , long , strings
+
+
+2. What are the Identifiers in Java?
+Ans: They are used for identification. These are the names given to classes , variables , methods etc in java. Identifiers consists of letters , digits , underscore , dollar sign.
+
+
+3. What is final class in Java?
+Ans: A final class in java means it cannot be changed , sub-classed and extended.It cannot be inherited by other class.
+
+
+4. What are the two ways to make a class final?
+Ans: There are two ways : 
+1. By using final keyword
+2. Making all constructors of class private
+
+
+5. Can we create an instance of final class in another class?
+Ans: Yes , we can create and use them as normally only restriction is we cannot inherit or extend them.
+
+
+6. What is Volatile keyword used for?
+Ans: It means its value accessed by multiple threads and can be changes by multiple threads concurrently.
+
+
+7. What is the use of Transient Keyword?
+Ans: It indicates that variable is not serialized when class instance containing the variable is serialized. 
+
+
+8. What are the types of casting.?
+Ans: There are two types of casting in Java:
+1. Implicit casting : Automatically done by the compiler , converting a smaller data type to a larger type.
+2. Explicit casting : Manually performed by the programmer when converting from a larger data type to a smaller type.
+
+
+9. What is boxing and unboxing.?
+Ans: 
+Boxing: The process of converting a primitive type to its corresponding wrapper class (converting int to Integer)
+Unboxing: The process of converting a wrapper class object to its corresponding primitive type (converting Integer to int)
+
+
+
+
+10. What is the difference between keywords, identifiers and literals in java?
+Ans: 
+Keywords :  Reserved words in java , that are know to compiler and cannot used as identifiers.
+Identifiers :  Names assigned to classes, variables , methodes , interfaces , etc.
+Literals : Fixed value assigned to identifiers.
+
+
+int  a = 8;
+Int - keyword ,  a - identifier , 8 - literals

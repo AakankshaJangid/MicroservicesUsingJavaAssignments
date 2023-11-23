@@ -1,0 +1,81 @@
+﻿1. List the Operators in Java?
+Ans: Operators in java : 
+* Assignment
+* Bitwise
+* Logical
+* Arithmetic
+* Unary
+* Relational
+
+
+2. Explain about Increment and Decrement operators and give an examples:
+Ans: Increment and Decrement are used to increase and decrease value of variable by 1 respectively.
+Example : 
+Increment : 
+int a = 5;
+a++ // now value of a is 6
+Decrement : 
+int a = 8;
+a-- // now value of a is 7
+
+
+3. What are the Conditional Operators in Java?
+Ans: There are three conditional operators in java:
+* Logical AND (condition1 && condition2)
+* Logical OR  (condition1 || condition2)
+* Ternary operator  (condition1 ? output1 : output2)
+
+
+4. What are the types of operators based on the number of operands?
+Ans: Unary , binary and ternary operator.
+
+
+5. What are the conditional Statements and use of conditional statements in Java?
+Ans: Conditional Statements and use of conditional statements in Java : 
+* If  - execute specific blocks of code when condition true
+* Else - execute specific blocks of code when above condition false
+* Else-if - execute specific blocks of code when mentioned condition is true and others are false
+* Switch - provide various for different conditions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6. What is the syntax of if else statement?
+Ans: 
+if (condition1) {
+    // code to be executed if the condition1 is true
+} else if(condition2) {
+    // code to be executed if the condition1 is false and condition2 is true
+}else{
+    // code to be executed if the condition1 is false and condition2 is false
+}
+
+
+7. What are the 3 types of iterative statements in java?
+Ans: 3 types of iterative statements are : 
+* For loop
+* Do-while loop
+* While loop
+
+
+8. What do you mean by an Array?
+Ans: An array in Java is a data structure that stores a fixed-size sequential collection of elements of the same type.
+
+
+9. How to create an Array?
+Ans: int[] arr = new int[10]   or int arr[];  arr = new int[10];
+
+
+10. State the difference between StringBuffer and StringBuilder in Java.
+Ans: StringBuffer : thread safe , provide synchronised methods , allow multiple threads to access it.
+StringBuilder : not thread safe , faster than stringBuffer , not used in multithread environment.
