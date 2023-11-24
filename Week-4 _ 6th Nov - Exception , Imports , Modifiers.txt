@@ -1,0 +1,74 @@
+﻿1. What is an exception in Java?
+Ans: It is an event that disturbs the flow of the program. It represents an error or exceptional condition that occurs during the execution of a program.
+
+
+2. What are the types of Exception?
+Ans: Types of Exception are : 
+1. Build-in Exceptions
+* Checked Exceptions
+* Unchecked Exceptions
+2. User - defined Exceptions
+
+
+3. How are exceptions handled in Java?
+Ans: Exceptions handled in following ways in java : 
+* Using try-catch block : Program may throw an exception if it is placed in the try block, and exceptions are caught and handled in the catch block.
+* Finally block : used to execute code regardless of whether an exception occurs or not. It will not execute if System.exit(0) present in either try or catch block or both.
+
+
+4. What are the important methods defined in Java's Exception Class?
+Ans: Some important methods are:
+* toString() - return throwable inf. , consisting of throwable class name and localized msg.
+* getMessage() - return throwable of type string.
+* getLocalizedMessage() - return exception msg.
+* Syncronized throwable getCause() - return cause set by different means.
+
+
+5. What are runtime exceptions in Java?
+Ans: Runtime exceptions, also known as unchecked exceptions, are exceptions that occur at runtime and do not need to be explicitly handled. They are subclasses of RuntimeException and its subclasses. These exceptions usually indicate programming errors or logical issues in the code.
+
+
+6. What is the difference between the throw and throws keywords in Java?
+Ans: throw is used to explicitly throw an exception within a method.
+throws is used in the method signature to declare that the method may throw certain exceptions and is used to delegate the responsibility of handling exceptions to the caller of the method.
+
+
+
+
+
+
+
+
+
+
+
+
+7. What is the difference between error and exception in Java?
+Ans: Error : caused by the environment in which the application is running , not in control of the programmer.
+For ex: OutOfMemory , stackOverflow
+Exception : caused by application itself , occurs during execution of program.
+For ex: nullPointerException , ArithmeticException
+
+
+8. Explain the hierarchy of Exceptions in Java?
+Ans: Exceptions in Java follow a hierarchical structure where Throwable is the superclass of all exceptions and errors. Checked exceptions extend Exception, while unchecked exceptions (runtime exceptions) extend RuntimeException.
+
+
+9. Define Packages in Java.
+Ans: They allow you to group related types (classes , interfaces)  together and make your code more readable and maintainable.
+
+
+10. What are Access modifiers in java?
+Ans: There are four access modifiers in Java: public, protected, private, and default. They control the visibility and accessibility of members within classes and packages.
+Public : access anywhere within or outside the package.
+Protected : access within package and inherited subclasses.
+Private : access within class only.
+Default : only within the package.
+
+
+11. What are non-access modifiers in Java?
+Ans: Non-access modifiers are : 
+Static : used to check if a member is class member or instance member , indicates vars and methods belonging to itself.
+Final : used to restrict the modification of class , field , method.
+Synchronized : used to achieve thread safeness.
+Abstract :  used to define abstract class and methods , abstract class cannot be instantiated.
